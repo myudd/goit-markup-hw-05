@@ -16,7 +16,6 @@
     display: flex;
     flex-direction: column;
     width: 408px;
-    height: 582px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #FCFCFC;
     padding: 24px;
@@ -26,7 +25,7 @@
 .main-form.is-open{
     visibility: visible;
     opacity: 1;
-    pointer-events: visible;
+    pointer-events: auto;
 }
 .main-form{
     visibility: hidden;
@@ -97,17 +96,16 @@
     height: 16px;
     cursor: pointer;
     border: 1px solid rgba(46, 47, 66, .4);
-    transition: border-color 250ms linear;
+    transition: background-color 250ms linear;
     display: block;
     position: relative;
     z-index: 1;
-    transition: (background-color, box-shadow) 250ms linear;
 }
 
 .checked-item-img {
     position: absolute;
     visibility: hidden;
-    fill: #fff;
+    fill: #f4f4fd;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -122,7 +120,7 @@
 }
 
 .checked-item-input:checked+.form-label>.checked-item {
-    background-color: #4D5AE5;
+    background-color: #404BBF;
 
 }
 
@@ -166,7 +164,9 @@
     padding: 8px 16px;
     resize: none;
     color: #434455;
-    letter-spacing: 0.04em
+    letter-spacing: 0.04em;
+    font-size: 12px;
+    line-height: 1.17;
 }
 
 .comment-form::placeholder {
@@ -204,8 +204,7 @@
     align-items: center;
     margin-left: auto;
     margin-bottom: 24px;
-    transition: background-color 250ms linear;
-    transition: border 250ms linear;
+    transition: background-color 250ms linear, border 250ms linear;
     cursor: pointer;
     
 }

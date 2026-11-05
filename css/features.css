@@ -1,0 +1,24 @@
+.features-card-name{
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+.features-card-text{
+    color: #434455;
+}
+.features-card{
+    width: 264px;
+}
+.features-img{
+    width: 64px;
+    height: 64px;
+}
+.features-card-preview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    height: 112px;
+}

@@ -90,6 +90,8 @@
     text-align-last: left;
     transition: background-color 250ms linear;
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .footer-email{
     border-radius: 4px;
@@ -100,6 +102,10 @@
     outline: none;
     border: 1px solid #fff;
     transition: border-color 250ms linear;
+    font-weight: 400; 
+    font-size: 12px; line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #fff;
 }
 .footer-email::placeholder{
     font-size: 12px;
@@ -113,5 +119,10 @@
 .footer-email:focus{
     border-color: #31D0AA;
     outline: none;
-
+}
+.footer-form-headline{
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }

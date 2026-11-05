@@ -210,7 +210,7 @@
 }
 
 .form-close {
-    transition: fill 250ms linear;
+    transition: fill 250ms linear, color 250ms linear;
 }
 
 .close-btn:hover, 
@@ -222,6 +222,7 @@
 .close-btn:hover .form-close,
 .close-btn:focus .form-close {
     fill: #fff;
+    color: #fff;
 }
 
 .modal-form-button:hover, 
